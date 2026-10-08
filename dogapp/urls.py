@@ -3,7 +3,7 @@ from rest_framework.routers import DefaultRouter
 from .views import DogViewSet, BreedViewSet 
 
 router = DefaultRouter()
-router.register(r'dogs', DogViewSet) # Basename removed!
+router.register(r'dogs', DogViewSet)
 router.register(r'breeds', BreedViewSet)
 
 urlpatterns = [
